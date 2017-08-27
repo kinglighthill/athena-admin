@@ -4,7 +4,7 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
                   <li class="active">
-                      <a class="" href="Home">
+                      <a class="" href="<?php echo base_url();?>/index.php/Profile">
                           <i class="fa fa-user"></i>
                           <span>My Profile</span>
                       </a>

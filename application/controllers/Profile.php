@@ -10,7 +10,16 @@ class Profile extends CI_Controller {
     $this->load->view("header");
     $this->load->view("navigation");
     $this->load->view("content-start");
-    $this->load->view("profile");
+    $this->load->view("student-profile");
+    $this->load->view("content-end");
+    $this->load->view("footer");
+  }
+  
+  function view() {
+	$this->load->view("header");
+    $this->load->view("navigation");
+    $this->load->view("content-start");
+    $this->load->view("staff-profile");
     $this->load->view("content-end");
     $this->load->view("footer");
   }

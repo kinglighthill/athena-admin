@@ -6864,6 +6864,28 @@ ul.inbox-pagination li {
 
 
 
+.bio-row1 {
+
+    float: left;
+
+    margin-bottom: 10px;
+	
+	word-wrap: break-word;
+
+}
+
+
+
+.bio-row2 {
+
+    word-wrap: break-word;
+	
+	width: 110px;
+	
+}
+
+
+
 .bio-row p span {
 
     width: 100px;
@@ -6871,6 +6893,17 @@ ul.inbox-pagination li {
     display: inline-block;
 
 }
+
+
+
+.bio-inner_row {
+
+    width: 10px;
+	
+}
+
+
+
 
 
 
